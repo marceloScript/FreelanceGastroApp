@@ -1,50 +1,107 @@
+# FreelanceGastroApp
 
-# TypeScript
+Aplicativo para conectar trabalhadores do ramo gastronômico (garçons, garçonetes, barmans, bargirls, cozinheiros, auxiliares de cozinha, recepcionistas) a restaurantes e empresários que buscam profissionais para vagas fixas ou freelancers.
 
-[![CI](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/microsoft/TypeScript/badge)](https://securityscorecards.dev/viewer/?uri=github.com/microsoft/TypeScript)
+## Funcionalidades
 
+- Cadastro e login para trabalhadores e restaurantes/empresários
+- Dashboard com notificações de novas oportunidades e serviços
+- Mapa interativo mostrando vagas e profissionais disponíveis (estilo Uber)
+- Busca por serviços, áreas e profissionais
+- Sistema de assinatura (3 meses grátis, depois R$ 19,99/mês)
+- Perfis com dados, fotos e currículo dos profissionais
+- Segurança e criptografia dos dados
 
-[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the [playground](https://www.typescriptlang.org/play/), and stay up to date via [our blog](https://blogs.msdn.microsoft.com/typescript) and [Twitter account](https://twitter.com/typescript).
+## Tecnologias Utilizadas
 
-Find others who are using TypeScript at [our community page](https://www.typescriptlang.org/community/).
+- React Native / Expo
+- TypeScript
+- Firebase (autenticação, banco de dados, notificações)
+- Google Maps API ou Mapbox
+- Outras bibliotecas conforme necessidade
 
-## Installing
-
-For the latest stable version:
+## Como rodar o projeto
 
 ```bash
-npm install -D typescript
+npm install
+npm start
 ```
 
-For our nightly builds:
+## Estrutura Sugerida
+
+- `/src/screens` - Telas do aplicativo
+- `/src/components` - Componentes reutilizáveis
+- `/src/services` - Serviços (API, autenticação, etc)
+- `/src/contexts` - Contextos globais (ex: usuário logado)
+- `/src/assets` - Imagens, ícones, etc
+
+## Próximos Passos
+
+1. Implementar telas de cadastro e login
+2. Criar dashboards para trabalhadores e restaurantes
+3. Integrar mapa com vagas e profissionais
+4. Implementar sistema de notificações
+5. Adicionar sistema de assinatura e teste grátis
+6. Garantir segurança e criptografia dos dados
+
+## Sobre
+
+Este projeto visa facilitar a conexão entre profissionais do ramo gastronômico e estabelecimentos que buscam mão de obra qualificada, seja para vagas fixas ou freelancers, de forma rápida, segura e eficiente.
+
+---
+
+Desenvolvido por Marcelo R. Carvalho
+```<!-- filepath: c:\Users\MRC\FreelanceGastroApp\README.md -->
+# FreelanceGastroApp
+
+Aplicativo para conectar trabalhadores do ramo gastronômico (garçons, garçonetes, barmans, bargirls, cozinheiros, auxiliares de cozinha, recepcionistas) a restaurantes e empresários que buscam profissionais para vagas fixas ou freelancers.
+
+## Funcionalidades
+
+- Cadastro e login para trabalhadores e restaurantes/empresários
+- Dashboard com notificações de novas oportunidades e serviços
+- Mapa interativo mostrando vagas e profissionais disponíveis (estilo Uber)
+- Busca por serviços, áreas e profissionais
+- Sistema de assinatura (3 meses grátis, depois R$ 19,99/mês)
+- Perfis com dados, fotos e currículo dos profissionais
+- Segurança e criptografia dos dados
+
+## Tecnologias Utilizadas
+
+- React Native / Expo
+- TypeScript
+- Firebase (autenticação, banco de dados, notificações)
+- Google Maps API ou Mapbox
+- Outras bibliotecas conforme necessidade
+
+## Como rodar o projeto
 
 ```bash
-npm install -D typescript@next
+npm install
+npm start
 ```
 
-## Contribute
+## Estrutura Sugerida
 
-There are many ways to [contribute](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) to TypeScript.
-* [Submit bugs](https://github.com/microsoft/TypeScript/issues) and help us verify fixes as they are checked in.
-* Review the [source code changes](https://github.com/microsoft/TypeScript/pulls).
-* Engage with other TypeScript users and developers on [StackOverflow](https://stackoverflow.com/questions/tagged/typescript).
-* Help each other in the [TypeScript Community Discord](https://discord.gg/typescript).
-* Join the [#typescript](https://twitter.com/search?q=%23TypeScript) discussion on Twitter.
-* [Contribute bug fixes](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md).
+- `/src/screens` - Telas do aplicativo
+- `/src/components` - Componentes reutilizáveis
+- `/src/services` - Serviços (API, autenticação, etc)
+- `/src/contexts` - Contextos globais (ex: usuário logado)
+- `/src/assets` - Imagens, ícones, etc
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see
-the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
-with any additional questions or comments.
+## Próximos Passos
 
-## Documentation
+1. Implementar telas de cadastro e login
+2. Criar dashboards para trabalhadores e restaurantes
+3. Integrar mapa com vagas e profissionais
+4. Implementar sistema de notificações
+5. Adicionar sistema de assinatura e teste grátis
+6. Garantir segurança e criptografia dos dados
 
-*  [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-*  [Programming handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-*  [Homepage](https://www.typescriptlang.org/)
+## Sobre
 
-## Roadmap
+Este projeto visa facilitar a conexão entre profissionais do ramo gastronômico e estabelecimentos que buscam mão de obra qualificada, seja para vagas fixas ou freelancers, de forma rápida, segura e eficiente.
 
-For details on our planned features and future direction, please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
+---
+
+Desenvolvido por Marcelo R. Carvalho
