@@ -1,11 +1,17 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View, Text } from 'react-native';
+import AppNavigator from './src/navigation/AppNavigator';
+
+// Importa a tela de login
+import LoginScreen from './src/screens/LoginScreen';
 
 export default function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>FreelanceGastroApp Carregado!</Text>
+    <>
+      <LoginScreen />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
+
+
